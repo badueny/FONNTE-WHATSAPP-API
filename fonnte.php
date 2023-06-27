@@ -9,7 +9,7 @@
  * use _ for Italic ex: _text_
  * use ~ for strikethrough ex: ~text~
  * use ``` for monospace ex: ```text```
- * For Include Domain On Footer Just type domain name without http:// or https:// ex: namadomain.com
+ * Included Domain Name On Message OR Footer just type domain name without http:// or https:// ex: namadomain.com
  * -----------------
  * 
  * How to Use as Helper on Codeigniter v.3:
@@ -77,7 +77,7 @@
     define('TOKEN_API_FONNTE', 'YOUR_TOKEN');  //Get from https://md.fonnte.com/new/device.php
     define('HEADER_MESSAGE', "Hai,\n\n");     //Open Close Must Use " DONT USE '    
     define('FOOTER_MESSAGE', "\n\n\nBest Regards,\n*YOU_COMPANY*\nYOUR_WEBSITE_URL"); //Open Close Must Use double quote " DONT USE single quote '
-    // Important! Included Domain On Footer just type domain name without http:// or https:// ex: namadomain.com */
+    //Important! Included Domain On Footer just type domain name without http:// or https:// ex: namadomain.com
 /* ====================== */
 
 class FONNTE 
