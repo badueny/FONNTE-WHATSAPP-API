@@ -73,10 +73,12 @@
  * 
 */
 
+/* REQUIRED CONFIGURATIONS */
     define('TOKEN_API_FONNTE', 'YOUR_TOKEN');  //Get from https://md.fonnte.com/new/device.php
     define('HEADER_MESSAGE', "Hai,\n\n");     //Open Close Must Use " DONT USE '    
     define('FOOTER_MESSAGE', "\n\n\nBest Regards,\n*YOU_COMPANY*\nYOUR_WEBSITE_URL"); //Open Close Must Use double quote " DONT USE single quote '
-    /**Important! Included Domain On Footer just type domain name without http:// or https:// ex: namadomain.com **/
+    // Important! Included Domain On Footer just type domain name without http:// or https:// ex: namadomain.com */
+/* ====================== */
 
 class FONNTE 
 {        
