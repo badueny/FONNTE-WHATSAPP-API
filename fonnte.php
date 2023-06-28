@@ -31,7 +31,8 @@
      * $message = 'TEST SEND MESSAGE';
      * $singleTarget = '6282xxxxxx';
      * $multipleTarget = '6282xxxxxx,6285xxxxxxxx,6283xxxxxxxxx'; //separate with comma,
-     * $send = FONNTE::sendMessage($message,$singleTarget);    
+     * $send = FONNTE::sendMessage($message,$singleTarget);   
+     * echo $send;
      * Output return true or false 
  * 
  * 2. Sending message With Attachment
@@ -43,12 +44,14 @@
      * $urlFile = 'https://domainName/folderFile/FileName';
      * $fileName = 'xxx.pdf'; //support image, file, audio, video | Max size 4MB
      * $send = FONNTE::sendMessageWithAttachment($message,$singleTarget,$urlFile,$fileName);
+     * echo $send;
      * Output return: true or false 
  * 
  * 3. Get QR Device
  *    FONNTE::getDeviceQr();
      * Example : 
      * $qr = FONNTE::getDeviceQr();
+     * echo $qr;
      * Output return: QR Image  
  * 
  * 4. Validate Phone Number
@@ -56,19 +59,22 @@
      * Example : 
      * $singleTarget = '6282xxxxxx';
      * $multipleTarget = '6282xxxxxx,6285xxxxxxxx,6283xxxxxxxxx'; //separate with comma,
-     * $qr = FONNTE::validatePhone($singleTarget);
+     * $phoneStatus = FONNTE::validatePhone($singleTarget);
+     * echo $phoneStatus;
      * Output return: Phone Status
  * 
  * 6. Get List WhatsApp Goup
  *    FONNTE::getListGroup();
      * Example :
      * $List = FONNTE::getListGroup();
+     * echo json_encode($List);
      * Output return: array List Group {id,array[member],name}
  * 
  * 7. Check Device Profile 
  *    FONNTE::deviceProfile();   
      * Example :
-     * $List = FONNTE::deviceProfile();
+     * $profile = FONNTE::deviceProfile();
+     * echo json_encode($profile);
      * Output return: array {"device":"","device_status":"connect","expired":"EXPIRED DATE","messages":27,"name":"","package":"","quota":"","status":"true"}
  * 
 */
