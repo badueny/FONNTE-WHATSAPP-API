@@ -21,7 +21,7 @@
  * Create Folder fonnte and Upload This File to Class Folder OR Vendor
  * rename This File to fonnte.php
  * Call Class
- * include "fonnte/fonnte.php";
+ * include "path/to/fonnte.php";
  * 
  * ------------------------------
  * Use Class
